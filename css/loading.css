@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&display=swap');
 
 body{
-    
+
     height: 100vh;
     display: flex;
     align-items: center;
@@ -13,3 +13,5 @@ body{
     font-size: 50px;
 
 }
+
+
