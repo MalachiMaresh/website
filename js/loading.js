@@ -7,11 +7,15 @@ load = 0
 int = setInterval(blurring, 35)
 
 
-loadText.style.opacity = 1
-bg.style.filter = "blur(10px)"
+
 
 
 function blurring() {
     load = load + 1
-    loadText.innerText = `${load}`%
+    if (load > 99){
+        clearInterval(int)
+    }
+    loadText.innerText = `${load}%`
+    loadText.style.opacity = 1
+    bg.style.filter = "blur(10px)"
 }
