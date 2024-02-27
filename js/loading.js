@@ -1,6 +1,7 @@
 loadText = document.querySelector('.loading-text')
 
-load = 0
+load = 90
 
-loadText.innerText = "7%"
+loadText.innerText = `${load}`%
+
 
