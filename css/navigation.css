@@ -93,3 +93,16 @@ body {
     text-decoration: none;
     padding: 7px 15px;
 }
+
+
+.nav.active {
+    background-color: white;
+}
+
+.nav.active a {
+    color: black;
+}
+
+.nav.active .container {
+    padding: 10px 0; 
+}
