@@ -63,7 +63,7 @@ body {
 
 .back {
     position: absolute; top: 5px; left: 5px;
-    size: 60px;
+    font-size: 25px;
     text-decoration: none;
     background-color: green;
     background-size: 100px 100px;
