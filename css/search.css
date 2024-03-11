@@ -57,7 +57,8 @@ body {
 
 .box {
     color: green;
-    
+    width: 50px;
+    height: 20px;
 }
 
 .back {
