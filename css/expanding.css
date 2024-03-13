@@ -61,3 +61,10 @@ body {
         width: 100vw;
     }
 }
+
+.back {
+    position: absolute; top: 5px; left: 5px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgb(230,205,156);
+}

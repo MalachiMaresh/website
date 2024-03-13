@@ -192,3 +192,11 @@ modal-header h3 {
   background: transparent;
   font-size: 25px;
 }
+
+.back {
+  position: absolute; top: 5px; right: 5px;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: rgb(230,205,156);
+  z-index: 2;
+}
