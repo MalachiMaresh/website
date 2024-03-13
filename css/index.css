@@ -1,5 +1,5 @@
 * {
-
+  text-decoration: none;
 }
 
 .head {
@@ -10,6 +10,8 @@
 
   .btn {
     background-color: green;
+    
   }
 
-  
+
+
