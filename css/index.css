@@ -10,16 +10,16 @@
   position: relative;
   }
 
-  h1 {  
+  h1 {
     z-index: 6;
   }
 
   .that {
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 12px;
     text-align: center;
     z-index: 6;
-    position: relative;
+    top: 180vh;
+    position: absolute;
   }
 
   .back {
