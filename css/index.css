@@ -17,9 +17,9 @@
   .that {
     font-size: 12px;
     text-align: center;
-    z-index: 6;
-    top: 180vh;
+    top: 180px;
     position: absolute;
+    z-index: 6;
   }
 
   .back {
