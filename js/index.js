@@ -9,7 +9,9 @@ change = document.querySelector('.change')
 
 
 change.addEventListener('click', () => {
-    one.style.zIndex = Math.floor(Math.random() * 10)
+    a = Math.floor(Math.random() * 10)
+    one.style.zIndex = a
+    console.log(a)
     two.style.zIndex = Math.floor(Math.random() * 10)
     three.style.zIndex = Math.floor(Math.random() * 10)
     four.style.zIndex = Math.floor(Math.random() * 10)
