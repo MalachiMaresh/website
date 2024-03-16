@@ -3,11 +3,11 @@
 }
 
 .head {
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-align: center;
-    z-index: 6;
-    position: relative;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  z-index: 6;
+  position: relative;
   }
 
   h1 {
@@ -15,8 +15,11 @@
   }
 
   .that {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
     z-index: 6;
-    position: absolute;
+    position: relative;
   }
 
   .back {
