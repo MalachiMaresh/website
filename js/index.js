@@ -12,6 +12,7 @@ change.addEventListener('click', () => {
     a = Math.floor(Math.random() * 10)
     one.style.zIndex = a
     console.log(a)
+    console.log("HELLO")
     two.style.zIndex = Math.floor(Math.random() * 10)
     three.style.zIndex = Math.floor(Math.random() * 10)
     four.style.zIndex = Math.floor(Math.random() * 10)
