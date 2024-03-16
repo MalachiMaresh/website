@@ -6,10 +6,21 @@
     font-size: 20px;
     letter-spacing: 1px;
     text-align: center;
+    z-index: 6;
+    position: relative;
+  }
+
+  h1 {
+    z-index: 6;
+  }
+
+  .that {
+    z-index: 6;
+    
   }
 
   .back {
-    
+
   }
 
   .btn {
@@ -19,7 +30,7 @@
     font-size: 1.2rem;
     padding: 1.5rem 3rem;
     text-align: center;
-    z-index: -1;
+    /* z-index: -1; */
 
   }
   .btn:hover {
@@ -32,6 +43,53 @@ body {
   align-items: center;
 }
 
-.content .one {
-  letter-spacing: 2px;
+.one {
+  position: relative;
+  z-index: 5;
+}
+
+.two {
+  position: relative;
+  z-index: 5;
+}
+
+.three {
+  position: relative;
+  z-index: 5;
+}
+
+.four {
+  position: relative;
+  z-index: 5;
+}
+
+.five {
+  position: relative;
+  z-index: 5;
+}
+
+.six {
+  position: relative;
+  z-index: 5;
+}
+
+
+.bbox {
+  background-color: lightblue;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.change {
+  position: absolute;
+  top: 50vh;
+  right: 70px;
+  width: 100px;
+  height: 65px;
+  background-color: white;
+  z-index: 5;
 }
